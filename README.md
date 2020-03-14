@@ -1,5 +1,5 @@
 # Calculator
-*PROJECT: Continuous integration Environment
+## Continuous integration Environment Project
  Set up a continuous integration (CI) environment that can build the software project and execute tests automatically. The environment shall respond to developer code pushes and from push, build the entire system and run, at least, unit and integration test cases but preferably system tests.
  
 The environment must include:
