@@ -10,4 +10,7 @@ public class Calculator {
 		
 		return from - number;
 	}
+	public  static int divide(int a, int b) {
+		return a / b;
+	}
 }

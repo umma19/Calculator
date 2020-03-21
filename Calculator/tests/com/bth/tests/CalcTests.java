@@ -26,9 +26,8 @@ public class CalcTests {
 		fail("Not yet implemented");
 	}
 	@Test
-	@Ignore
 	public void divTest() {
-		fail("Not yet implemented");
+		assertEquals(2, Calculator.divide(8, 4));
 	}
 
 }
