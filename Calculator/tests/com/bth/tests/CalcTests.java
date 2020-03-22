@@ -33,4 +33,13 @@ public class CalcTests {
 		assertEquals(2, Calculator.divide(8, 4));
 	}
 
+	// As a user I am going to calculate a POW b (a^b)
+	@Test
+	public void PowTest() {
+		assertEquals(0, Calculator.PositivePow(0,20));
+		assertEquals(1, Calculator.PositivePow(10,0));
+		assertEquals(-1, Calculator.PositivePow(7,-5));
+		assertEquals(7776, Calculator.PositivePow(6,5));
+	}
+
 }

@@ -18,4 +18,18 @@ public class Calculator {
 		return a * b;
 	}
 
+	public static long PositivePow(long a, long b) {
+		long PowResult = 1;
+		if (a == 0)
+			PowResult = 0;
+		else if (b == 0)
+			PowResult = 1;
+		else if ( b < 0)
+			PowResult = -1;
+		else
+			for (int i = 1; i <= b; i++)
+				PowResult *= a;
+
+		return PowResult;
+	}
 }
