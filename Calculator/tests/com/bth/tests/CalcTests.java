@@ -6,6 +6,7 @@ import org.junit.Ignore;
 import org.junit.Test;
 
 import com.bth.main.Calculator;
+import org.junit.rules.ExpectedException;
 
 public class CalcTests {
 
@@ -21,9 +22,8 @@ public class CalcTests {
 		fail("Not yet implemented");
 	}
 	@Test
-	@Ignore
 	public void mulTest() {
-		fail("Not yet implemented");
+		assertEquals(8,Calculator.
 	}
 	@Test
 	public void divTest() {
