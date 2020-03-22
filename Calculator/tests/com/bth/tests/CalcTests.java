@@ -21,10 +21,12 @@ public class CalcTests {
 	public void subtest() {
 		fail("Not yet implemented");
 	}
-	@Test
-	@Ignore
-	public void mulTest() {
 
+	@Test
+	public void mulTest() {
+		assertEquals(0, Calculator.multiply(0, 2));
+		assertEquals(15, Calculator.multiply(3, 5));
+		assertNotEquals(15, Calculator.multiply(3, 4));
 	}
 	@Test
 	public void divTest() {
