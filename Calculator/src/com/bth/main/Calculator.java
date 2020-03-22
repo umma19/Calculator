@@ -14,6 +14,4 @@ public class Calculator {
 		return a / b;
 	}
 
-	public
-
 }
