@@ -10,9 +10,9 @@ public class CalcTest {
 
 	@Test
 	public void addTest() {
-	//	fail("Not yet implemented");
-		assertEquals(4,Calculator.addition(2, 2));
-		assertEquals(0,Calculator.addition(5, -5));
+		fail("Not yet implemented");
+	//	assertEquals(4,Calculator.addition(2, 2));
+	//	assertEquals(0,Calculator.addition(5, -5));
 	}
 	@Test
 	public void subtest() {
