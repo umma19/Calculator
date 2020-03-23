@@ -19,8 +19,7 @@ public class CalcTests {
 	@Test
 	@Ignore
 	public void subtest() {
-		//fail("Not yet implemented");
-		fail("Not yet implemented");
+		assertEquals(4, Calculator.subtraction(10, 6));
 	}
 
 	@Test
