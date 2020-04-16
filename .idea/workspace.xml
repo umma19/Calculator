@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c2a31d3b-8981-46b0-bd0e-382ecd62c550" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="MERGE" />
+  </component>
+  <component name="ProjectId" id="1adnRNgkh86QhSi5uDhcl3CKpVM" />
+  <component name="ProjectLevelVcsManager">
+    <OptionsSetting value="false" id="Update" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="Downloaded.Files.Path.Enabled" value="true" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RunManager" selected="JUnit.CalcTests">
+    <configuration name="CalcTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Calculator" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bth.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.bth.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.bth.tests.CalcTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CalcTests.PowTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Calculator" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bth.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.bth.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.bth.tests.CalcTests" />
+      <option name="METHOD_NAME" value="PowTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CalcTests.divTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Calculator" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bth.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.bth.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.bth.tests.CalcTests" />
+      <option name="METHOD_NAME" value="divTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CalcTests.mulTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Calculator" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bth.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.bth.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.bth.tests.CalcTests" />
+      <option name="METHOD_NAME" value="mulTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.CalcTests" />
+        <item itemvalue="JUnit.CalcTests.mulTest" />
+        <item itemvalue="JUnit.CalcTests.divTest" />
+        <item itemvalue="JUnit.CalcTests.PowTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c2a31d3b-8981-46b0-bd0e-382ecd62c550" name="Default Changelist" comment="" />
+      <created>1587074329699</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1587074329699</updated>
+      <workItem from="1587074331482" duration="1728000" />
+    </task>
+    <task id="LOCAL-00001" summary="Final Commit&#10;Divide Function needs to be checked.">
+      <created>1587075659162</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1587075659162</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Final Commit&#10;Divide Function needs to be checked." />
+    <option name="LAST_COMMIT_MESSAGE" value="Final Commit&#10;Divide Function needs to be checked." />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="321" y="0" key="CommitChangelistDialog2" timestamp="1587075658372">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="321" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1587075658372" />
+    <state width="1323" height="182" key="GridCell.Tab.0.bottom" timestamp="1587076147739">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="182" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1587076147739" />
+    <state width="1323" height="182" key="GridCell.Tab.0.center" timestamp="1587076147739">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="182" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1587076147739" />
+    <state width="1323" height="182" key="GridCell.Tab.0.left" timestamp="1587076147738">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="182" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1587076147738" />
+    <state width="1323" height="182" key="GridCell.Tab.0.right" timestamp="1587076147739">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="182" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1587076147739" />
+    <state width="661" height="227" key="GridCell.Tab.1.bottom" timestamp="1587076093794">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="661" height="227" key="GridCell.Tab.1.bottom/0.0.1366.738@0.0.1366.738" timestamp="1587076093794" />
+    <state width="661" height="227" key="GridCell.Tab.1.center" timestamp="1587076093793">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="661" height="227" key="GridCell.Tab.1.center/0.0.1366.738@0.0.1366.738" timestamp="1587076093793" />
+    <state width="661" height="227" key="GridCell.Tab.1.left" timestamp="1587076093793">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="661" height="227" key="GridCell.Tab.1.left/0.0.1366.738@0.0.1366.738" timestamp="1587076093793" />
+    <state width="661" height="227" key="GridCell.Tab.1.right" timestamp="1587076093793">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="661" height="227" key="GridCell.Tab.1.right/0.0.1366.738@0.0.1366.738" timestamp="1587076093793" />
+    <state x="186" y="14" key="SettingsEditor" timestamp="1587076062539">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="186" y="14" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1587076062539" />
+    <state x="387" y="270" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1587074748269">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="387" y="270" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1366.738@0.0.1366.738" timestamp="1587074748269" />
+    <state x="494" y="287" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1587074817050">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="494" y="287" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.738@0.0.1366.738" timestamp="1587074817050" />
+  </component>
+</project>
