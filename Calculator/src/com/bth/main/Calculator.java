@@ -14,10 +14,20 @@ public class Calculator {
 		
 		return a * b;
 	}
-	public static double divide(int number, int by) {
+	public static double divide(double number, double by) {
 		if(by == 0)
 			throw new IllegalArgumentException("Can not divide by zero!");
-		return (double) number / by;
+		return number / by;
 	}
-	
+	public static long PositivePow(long a, long b) {
+		long PowResult = 1;
+		if (a == 0)
+			PowResult = 0;
+		else if ( b < 0)
+			PowResult = -1;
+		else
+			for (int i = 1; i <= b; i++)
+				PowResult *= a;
+		return PowResult;
+	}
 }

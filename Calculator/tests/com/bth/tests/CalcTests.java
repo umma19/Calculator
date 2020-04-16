@@ -1,12 +1,10 @@
 package com.bth.tests;
 
-import static org.junit.Assert.*;
-
+import com.bth.main.Calculator;
 import org.junit.Ignore;
 import org.junit.Test;
 
-import com.bth.main.Calculator;
-import org.junit.rules.ExpectedException;
+import static org.junit.Assert.*;
 
 public class CalcTests {
 
@@ -17,7 +15,6 @@ public class CalcTests {
 		assertEquals(0,Calculator.addition(5, -5));
 	}
 	@Test
-	@Ignore
 	public void subtest() {
 		assertEquals(4, Calculator.subtraction(10, 6));
 	}
@@ -29,8 +26,10 @@ public class CalcTests {
 		assertNotEquals(15, Calculator.multiply(3, 4));
 	}
 	@Test
+	@Ignore
 	public void divTest() {
-		assertEquals(2, Calculator.divide(8, 4));
+//		assertEquals(2,Calculator.divide(8,4));
+//		assertEquals(2, Calculator.divide(8, 4));
 	}
 
 	// As a user I am going to calculate a POW b (a^b)
