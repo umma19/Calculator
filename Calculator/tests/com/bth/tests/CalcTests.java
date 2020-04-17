@@ -26,10 +26,14 @@ public class CalcTests {
 		assertNotEquals(15, Calculator.multiply(3, 4));
 	}
 	@Test
-	@Ignore
 	public void divTest() {
-//		assertEquals(2,Calculator.divide(8,4));
-//		assertEquals(2, Calculator.divide(8, 4));
+		assertEquals(2, Calculator.divide(8, 4));
+		assertNotEquals(2, Calculator.divide(6, 4));
+	}
+
+	@Test(expected = IllegalArgumentException.class)
+	public void testDivideByZero() {
+		Calculator.divide(4, 0);
 	}
 
 	// As a user I am going to calculate a POW b (a^b)
