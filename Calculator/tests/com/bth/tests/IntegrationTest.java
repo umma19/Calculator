@@ -1,5 +1,6 @@
 package com.bth.tests;
 
+import com.bth.main.Areas;
 import com.bth.main.Calculator;
 import org.junit.Test;
 
@@ -15,4 +16,30 @@ public class IntegrationTest {
 				Calculator.divide( Calculator.addition(37,13), Calculator.subtraction(42,17)),
 				Calculator.multiply(2,3)));
 	}
+	
+	// Integration test for area of a triangle using arithmetic operations from Calculator class
+	@Test
+	public void triangleArea() {
+		
+		assertEquals(12, Areas.Triangle(6, 4));
+	}
+	
+	// Integration test for area of a rectangle using arithmetic operations from Calculator class
+	@Test
+	public void rectangleArea() {
+		
+		assertEquals(36, Areas.Rectangle(9, 4));
+		assertNotEquals(12, Areas.Rectangle(10, 4));
+		
+	}
+	// Integration test for area of a square using arithmetic operations from Calculator class
+	@Test
+	public void squareArea() {
+		
+		assertEquals(36, Areas.Square(6));
+		assertEquals(4, Areas.Square(2));
+	}
+
+	
+	
 }
