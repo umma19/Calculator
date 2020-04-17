@@ -19,8 +19,8 @@ public class Calculator {
 			throw new IllegalArgumentException("Can not divide by zero!");
 		return number / by;
 	}
-	public static long PositivePow(long a, long b) {
-		long PowResult = 1;
+	public static int PositivePow(int a, int b) {
+		int PowResult = 1;
 		if (a == 0)
 			PowResult = 0;
 		else if ( b < 0)

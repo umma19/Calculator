@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c2a31d3b-8981-46b0-bd0e-382ecd62c550" name="Default Changelist" comment="" />
+    <list default="true" id="c2a31d3b-8981-46b0-bd0e-382ecd62c550" name="Default Changelist" comment="Added Integration Test.">
+      <change afterPath="$PROJECT_DIR$/Calculator/tests/com/bth/tests/IntegrationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Calculator/src/com/bth/main/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/Calculator/src/com/bth/main/Calculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Calculator/tests/com/bth/tests/CalcTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/Calculator/tests/com/bth/tests/CalcTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Calculator/com/bth/main/Calculator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Calculator/com/bth/main/Calculator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Calculator/com/bth/tests/CalcTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/Calculator/com/bth/tests/CalcTests.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +21,7 @@
   <component name="ProjectId" id="1adnRNgkh86QhSi5uDhcl3CKpVM" />
   <component name="ProjectLevelVcsManager">
     <OptionsSetting value="false" id="Update" />
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -33,7 +41,12 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
-  <component name="RunManager" selected="JUnit.CalcTests">
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.bth.tests" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.CalcTests.testDivideByZero">
     <configuration name="CalcTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Calculator" />
       <extension name="coverage">
@@ -65,22 +78,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CalcTests.divTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Calculator" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.bth.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.bth.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.bth.tests.CalcTests" />
-      <option name="METHOD_NAME" value="divTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="CalcTests.mulTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Calculator" />
       <extension name="coverage">
@@ -97,12 +94,44 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CalcTests.testDivideByZero" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Calculator" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bth.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.bth.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.bth.tests.CalcTests" />
+      <option name="METHOD_NAME" value="testDivideByZero" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IntegrationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Calculator" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bth.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.bth.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.bth.tests.IntegrationTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CalcTests.testDivideByZero" />
+        <item itemvalue="JUnit.IntegrationTest" />
         <item itemvalue="JUnit.CalcTests" />
-        <item itemvalue="JUnit.CalcTests.mulTest" />
-        <item itemvalue="JUnit.CalcTests.divTest" />
         <item itemvalue="JUnit.CalcTests.PowTest" />
+        <item itemvalue="JUnit.CalcTests.mulTest" />
       </list>
     </recent_temporary>
   </component>
@@ -117,6 +146,8 @@
       <option name="presentableId" value="Default" />
       <updated>1587074329699</updated>
       <workItem from="1587074331482" duration="1728000" />
+      <workItem from="1587076542331" duration="921000" />
+      <workItem from="1587155391531" duration="1528000" />
     </task>
     <task id="LOCAL-00001" summary="Final Commit&#10;Divide Function needs to be checked.">
       <created>1587075659162</created>
@@ -125,7 +156,21 @@
       <option name="project" value="LOCAL" />
       <updated>1587075659162</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Final Commit&#10;Divide Function needs to be checked.">
+      <created>1587076595286</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1587076595286</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Final Commit&#10;Divide Function needs to be checked.">
+      <created>1587076748987</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1587076748987</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -133,29 +178,30 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Final Commit&#10;Divide Function needs to be checked." />
-    <option name="LAST_COMMIT_MESSAGE" value="Final Commit&#10;Divide Function needs to be checked." />
+    <MESSAGE value="Added Integration Test." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Integration Test." />
   </component>
   <component name="WindowStateProjectService">
-    <state x="321" y="0" key="CommitChangelistDialog2" timestamp="1587076594021">
+    <state x="321" y="0" key="CommitChangelistDialog2" timestamp="1587156914515">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="321" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1587076594021" />
-    <state width="661" height="182" key="GridCell.Tab.0.bottom" timestamp="1587076578959">
+    <state x="321" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1587156914515" />
+    <state width="661" height="182" key="GridCell.Tab.0.bottom" timestamp="1587156914796">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="661" height="182" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1587076578959" />
-    <state width="661" height="182" key="GridCell.Tab.0.center" timestamp="1587076578959">
+    <state width="661" height="182" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1587156914796" />
+    <state width="661" height="182" key="GridCell.Tab.0.center" timestamp="1587156914796">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="661" height="182" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1587076578959" />
-    <state width="661" height="182" key="GridCell.Tab.0.left" timestamp="1587076578959">
+    <state width="661" height="182" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1587156914796" />
+    <state width="661" height="182" key="GridCell.Tab.0.left" timestamp="1587156914796">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="661" height="182" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1587076578959" />
-    <state width="661" height="182" key="GridCell.Tab.0.right" timestamp="1587076578959">
+    <state width="661" height="182" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1587156914796" />
+    <state width="661" height="182" key="GridCell.Tab.0.right" timestamp="1587156914796">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="661" height="182" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1587076578959" />
+    <state width="661" height="182" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1587156914796" />
     <state width="661" height="227" key="GridCell.Tab.1.bottom" timestamp="1587076093794">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
